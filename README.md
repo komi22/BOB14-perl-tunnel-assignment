@@ -8,7 +8,8 @@ This implementation is intended only for the provided Docker lab and authorized 
 
 ## Usage
 ### 1) Change URL
-Open `run.py` and change BASE_DEFAULT to your image’s web server URL (the one that serves `upload.jsp` / `download.jsp`):
+Open `run.py` and change BASE_DEFAULT to your image’s web server URL   
+(the one that serves `upload.jsp` / `download.jsp`):
 ```python
 # run.py
 BASE_DEFAULT = "http://192.168.183.128:8080"
@@ -37,4 +38,4 @@ PS C:\Users\User\test\BOB14-perl-tunnel-assignment-main> python run.py
 - Uploads and reconstructs agent.pl on the server (via filename CMDi with RFC 2047 Q-encoding).
 - Starts the agent (perl agent.pl on the server).
 - Launches a local SOCKS5 proxy (default 127.0.0.1:1080).
-- (Optional) Auto-opens Chrome to http://172.18.0.2:5000/ (internal web app).
+- Auto-opens Chrome to http://172.18.0.2:5000/ (internal web app).
