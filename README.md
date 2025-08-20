@@ -1,6 +1,8 @@
 # BOB14-perl-tunnel-assignment
-The following code was developed for this assignment:
-<https://github.com/JaewookYou/bob-perl-tunnel-assignment>
+- The following code was developed for this assignment:  
+<https://github.com/JaewookYou/bob-perl-tunnel-assignment>  
+- The Korean source code description is located in the following link.  
+<https://www.notion.so/polio/Perl-CMDi-SOCKS5-Tunnel-255c4ae6f15c80019c93f08afd74ed2a?source=copy_link>
 
 This implementation is intended only for the provided Docker lab and authorized testing. Do not use it outside a controlled environment.
 
